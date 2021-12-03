@@ -6,7 +6,7 @@ struct PositionData {
 }
 
 fn main() {
-    let input = fs::read_to_string("inputs/day_2_1.txt").unwrap();
+    let input = fs::read_to_string("inputs/day_2.txt").unwrap();
 
     let mut position = PositionData {
         horizontal: 0,
