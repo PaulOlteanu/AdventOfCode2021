@@ -11,12 +11,12 @@ enum Packets {
 #[derive(Debug)]
 struct LiteralPacket {
     version: u64,
-    type_id: u64,
-    value: u64,
+    // type_id: u64,
+    // value: u64,
 }
 
 impl LiteralPacket {
-    fn parse(reader: &mut Vec<char>, version: u64, type_id: u64) -> (Self, u64) {
+    fn parse(reader: &mut Vec<char>, version: u64, _type_id: u64) -> (Self, u64) {
         let mut bits = Vec::new();
         let mut bits_read = 0;
         loop {
@@ -33,13 +33,13 @@ impl LiteralPacket {
             }
         }
 
-        let value = u64::from_str_radix(&bits.iter().join(""), 2).unwrap();
+        let _value = u64::from_str_radix(&bits.iter().join(""), 2).unwrap();
 
         (
             Self {
                 version,
-                type_id,
-                value,
+                // type_id,
+                // value,
             },
             bits_read,
         )
@@ -49,14 +49,14 @@ impl LiteralPacket {
 #[derive(Debug)]
 struct OperatorPacket {
     version: u64,
-    type_id: u64,
-    length_type_id: u64,
-    length: u64,
+    // type_id: u64,
+    // length_type_id: u64,
+    // length: u64,
     sub_packets: Vec<Packets>,
 }
 
 impl OperatorPacket {
-    fn parse(reader: &mut Vec<char>, version: u64, type_id: u64) -> (Self, u64) {
+    fn parse(reader: &mut Vec<char>, version: u64, _type_id: u64) -> (Self, u64) {
         let mut bits_read = 0;
         let length_type_id: u64 = reader
             .drain(0..1)
@@ -99,9 +99,9 @@ impl OperatorPacket {
         (
             Self {
                 version,
-                type_id,
-                length_type_id,
-                length,
+                // type_id,
+                // length_type_id,
+                // length,
                 sub_packets,
             },
             bits_read,
