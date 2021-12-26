@@ -1,0 +1,266 @@
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 1
+x = x + 12
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 15
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 1
+x = x + 14
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 12
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 1
+x = x + 11
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 15
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 26
+x = x + -9
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 12
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 26
+x = x + -7
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 15
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 1
+x = x + 11
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 2
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 26
+x = x + -1
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 11
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 26
+x = x + -16
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 15
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 1
+x = x + 11
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 10
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 26
+x = x + -15
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 2
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 1
+x = x + 10
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 0
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 1
+x = x + 12
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 0
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 26
+x = x + -4
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 15
+y = y * x
+z = z + y
+
+w = input()
+x = x * 0
+x = x + z
+x = x % 26
+z = z / 26
+x = x + 0
+x = 1 if x == w else 0
+x = 1 if x == 0 else 0
+y = y * 0
+y = y + 25
+y = y * x
+y = y + 1
+z = z * y
+y = y * 0
+y = y + w
+y = y + 15
+y = y * x
+z = z + y
