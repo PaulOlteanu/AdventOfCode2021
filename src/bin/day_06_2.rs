@@ -13,7 +13,7 @@ fn get_read_write<'a>(
 }
 
 fn main() {
-    let input: Vec<usize> = fs::read_to_string("inputs/day_6.txt")
+    let input: Vec<usize> = fs::read_to_string("inputs/day_06.txt")
         .unwrap()
         .trim()
         .split(',')

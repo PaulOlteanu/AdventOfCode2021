@@ -32,7 +32,7 @@ fn find_basin_size(points: &[Vec<u32>], visited: &mut Vec<Vec<bool>>, x: usize, 
 }
 
 fn main() {
-    let input: Vec<Vec<u32>> = fs::read_to_string("inputs/day_9.txt")
+    let input: Vec<Vec<u32>> = fs::read_to_string("inputs/day_09.txt")
         .unwrap()
         .trim()
         .lines()

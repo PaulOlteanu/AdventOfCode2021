@@ -12,7 +12,7 @@ struct Coordinate {
 fn main() {
     let mut points: HashMap<Coordinate, u32> = HashMap::new();
 
-    let input: Vec<(Coordinate, Coordinate)> = fs::read_to_string("inputs/day_5.txt")
+    let input: Vec<(Coordinate, Coordinate)> = fs::read_to_string("inputs/day_05.txt")
         .unwrap()
         .lines()
         .map(|line| {

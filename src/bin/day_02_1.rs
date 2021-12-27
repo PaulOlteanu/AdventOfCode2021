@@ -3,16 +3,14 @@ use std::fs;
 struct PositionData {
     horizontal: i32,
     vertical: i32,
-    aim: i32,
 }
 
 fn main() {
-    let input = fs::read_to_string("inputs/day_2.txt").unwrap();
+    let input = fs::read_to_string("inputs/day_02.txt").unwrap();
 
     let mut position = PositionData {
         horizontal: 0,
         vertical: 0,
-        aim: 0,
     };
 
     input.lines().for_each(|s| {
@@ -22,12 +20,9 @@ fn main() {
             spl.next().unwrap().parse::<i32>().unwrap(),
         );
         match direction {
-            "up" => position.aim += amount,
-            "down" => position.aim -= amount,
-            "forward" => {
-                position.horizontal += amount;
-                position.vertical += position.aim * amount;
-            }
+            "up" => position.vertical += amount,
+            "down" => position.vertical -= amount,
+            "forward" => position.horizontal += amount,
             _ => println!("Unknown direction"),
         }
     });

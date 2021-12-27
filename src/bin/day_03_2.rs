@@ -15,7 +15,7 @@ fn get_most_common_bit(numbers: &[u32], index: usize) -> u32 {
 }
 
 fn main() {
-    let input = fs::read_to_string("inputs/day_3.txt").unwrap();
+    let input = fs::read_to_string("inputs/day_03.txt").unwrap();
 
     let mut most_common: Vec<u32> = input
         .lines()

@@ -40,7 +40,7 @@ impl Sea {
 }
 
 fn main() {
-    let input: Vec<u32> = fs::read_to_string("inputs/day_6.txt")
+    let input: Vec<u32> = fs::read_to_string("inputs/day_06.txt")
         .unwrap()
         .trim()
         .split(',')

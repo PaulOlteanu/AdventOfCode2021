@@ -1,7 +1,7 @@
 use std::fs;
 
 fn main() {
-    let input = fs::read_to_string("inputs/day_3.txt").unwrap();
+    let input = fs::read_to_string("inputs/day_03.txt").unwrap();
 
     let mut sum = [0; 12];
     let mut count = 0;

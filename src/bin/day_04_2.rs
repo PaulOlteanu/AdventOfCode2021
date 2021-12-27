@@ -99,7 +99,7 @@ impl fmt::Debug for Board {
 }
 
 fn main() {
-    let input = fs::read_to_string("inputs/day_4.txt").unwrap();
+    let input = fs::read_to_string("inputs/day_04.txt").unwrap();
     let mut input = input.lines().filter(|&x| !x.is_empty()).peekable();
     let mut numbers = input
         .next()

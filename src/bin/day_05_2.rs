@@ -50,7 +50,7 @@ impl Coordinate {
 }
 
 fn main() {
-    let input: Vec<(Coordinate, Coordinate)> = fs::read_to_string("inputs/day_5.txt")
+    let input: Vec<(Coordinate, Coordinate)> = fs::read_to_string("inputs/day_05.txt")
         .unwrap()
         .lines()
         .map(|line| {

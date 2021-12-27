@@ -4,7 +4,7 @@ use std::fs;
 use itertools::Itertools;
 
 fn main() {
-    let input: Vec<(Vec<String>, Vec<String>)> = fs::read_to_string("inputs/day_8.txt")
+    let input: Vec<(Vec<String>, Vec<String>)> = fs::read_to_string("inputs/day_08.txt")
         .unwrap()
         .trim()
         .lines()
